@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=UTF-8>
+    <title>めもめも</title>
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <script src="script/jquery-1.7.2.min.js"></script>
+    <script src="script/script.js"></script>
+  </head>
+  <body onload="loadStorage('ichiran');">
+    <h1>めもめもくん</h1>
+    <div id="wrapper">
+      <h2>新規メモ</h2>
+      <div id="write">
+        タイトル：<input type="text" id="title">
+        <textarea id="memo"></textarea>
+        <input type="button" value="追加" onclick="saveStorage('memo','title');">
+      </div>
+      <hr>
+      <div id="ichiran"></div>
+      <hr>
+      <input type="button" value="初期化" onclick="clearStorage('ichiran');">
+    </div>
+  </body>
+</html>

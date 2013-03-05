@@ -1,0 +1,13 @@
+﻿{
+  "name": "めもめもくん",
+  "description": "めもを取るツール",
+  "launch_path": "/index.html",
+  "icons": {
+    "256": "/img/icon.png"
+  },
+  "developer": {
+    "name": "Yoshitomo Akimoto",
+    "url": "http://y-misc.org/mozilla"
+  },
+  "default_locale": "ja"
+}
